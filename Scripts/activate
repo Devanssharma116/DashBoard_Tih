@@ -85,3 +85,6 @@ pydoc () {
 # commands. Without forgetting past commands the $PATH changes
 # we made may not be respected
 hash -r 2>/dev/null
+
+
+# lol
