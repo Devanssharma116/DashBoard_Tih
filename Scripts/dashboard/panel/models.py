@@ -23,15 +23,15 @@ class Leture(models.Model):
      def __str__(self):
          return f"{self.tname}{self.id}{self.up}"
      
-class CourseJ(models.Model):
-     tname = models.CharField(max_length=50)
-     up = models.DateField(max_length=10)
-    #  upfile= models.CharField(max_length=50)
+# class CourseJ(models.Model):
+#      tname = models.CharField(max_length=50)
+#      up = models.DateField(max_length=10)
+#     #  upfile= models.CharField(max_length=50)
 
-     def __str__(self):
-         return f"{self.tname}{self.id}{self.up}"
+#      def __str__(self):
+#          return f"{self.tname}{self.id}{self.up}"
 
-class CourseH(models.Model):
+class Course(models.Model):
      tname = models.CharField(max_length=50)
      up = models.DateField(max_length=10)
     #  upfile= models.CharField(max_length=50)
