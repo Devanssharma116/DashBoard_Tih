@@ -22,8 +22,9 @@ from panel.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path ('',table1),
     path ('SD/',receipts),
-    path ('SDS/',table1),
+    # path ('SDS/',table1),
     path ('table/',table2),
     path('delete/<id>',delete),
     path ('LA/',letureAdd),
