@@ -112,7 +112,6 @@ def courseAdd(request):
             # upfile = upfile
         )
         return redirect('/panel/CA/')
-        # return redirect('/CA/')
     return render(request,"add_course.html")
 
 def courseshow(request):
