@@ -17,19 +17,19 @@ def letureShows(request):
     }
     return render(request,'LectureShows.html',contextmenu)
 
-def courseHShows(request):
-    a = CourseH.objects.all()
-    contextmenu={
-        'table':a
-    }
-    return render(request,'courseHTML_Shows.html',contextmenu)
+# def courseHShows(request):
+#     a = CourseH.objects.all()
+#     contextmenu={
+#         'table':a
+#     }
+#     return render(request,'courseHTML_Shows.html',contextmenu)
 
-def courseJShows(request):
-    a = CourseJ.objects.all()
-    contextmenu={
-        'table':a
-    }
-    return render(request,'courseJS_Shows.html',contextmenu)
+# def courseJShows(request):
+#     a = CourseJ.objects.all()
+#     contextmenu={
+#         'table':a
+#     }
+#     return render(request,'courseJS_Shows.html',contextmenu)
 
 def AssignShows(request):
     a = Assignment.objects.all()
